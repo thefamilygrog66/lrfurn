@@ -63,9 +63,9 @@ for i in ipairs(armchairs_list) do
 	minetest.register_craft({
 		output = "lrfurn:armchair_"..colour,
 		recipe = {
-			{"wool:"..colour, "wool:"..colour, "", },
-			{"stairs:slab_wood", "stairs:slab_wood", "", },
-			{"default:stick", "default:stick", "", }
+			{"wool:"..colour, "", "", },
+			{"stairs:slab_wood", "", "", },
+			{"default:stick", "", "", }
 		}
 	})
 	
