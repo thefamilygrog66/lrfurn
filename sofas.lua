@@ -127,7 +127,7 @@ for i in ipairs(sofas_list) do
 	})
 	
 	minetest.register_alias("lrfurn:sofa_"..colour, "lrfurn:sofa_right_"..colour)
-	
+
 	minetest.register_craft({
 		output = "lrfurn:sofa_"..colour,
 		recipe = {
@@ -136,7 +136,25 @@ for i in ipairs(sofas_list) do
 			{"default:stick", "default:stick", "", }
 		}
 	})
-	
+
+	minetest.register_craft({
+		output = "lrfurn:sofa_"..colour,
+		recipe = {
+			{"wool:"..colour, "wool:"..colour, "", },
+			{"moreblocks:slab_wood", "moreblocks:slab_wood", "", },
+			{"default:stick", "default:stick", "", }
+		}
+	})
+
+	minetest.register_craft({
+		output = "lrfurn:sofa_"..colour,
+		recipe = {
+			{"wool:"..colour, "wool:"..colour, "", },
+			{"group:wood_slab", "group:wood_slab", "", },
+			{"default:stick", "default:stick", "", }
+		}
+	})
+
 end
 
 if minetest.setting_get("log_mods") then
