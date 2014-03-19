@@ -1,3 +1,13 @@
+-- Boilerplate to support localized strings if intllib mod is installed.
+local S
+if (minetest.get_modpath("intllib")) then
+  dofile(minetest.get_modpath("intllib").."/intllib.lua")
+  S = intllib.Getter(minetest.get_current_modname())
+else
+  S = function ( s ) return s end
+end
+
+
 local sofas_list = {
 	{ "Red Sofa", "red"},
 	{ "Orange Sofa", "orange"},	
@@ -15,7 +25,7 @@ for i in ipairs(sofas_list) do
 	local colour = sofas_list[i][2]
 
 	minetest.register_node("lrfurn:sofa_right_"..colour, {
-		description = sofadesc,
+		description = S(sofadesc),
 		drawtype = "nodebox",
 		tiles = {"lrfurn_sofa_right_top_"..colour..".png", "lrfurn_coffeetable_back.png",  "lrfurn_sofa_right_front_"..colour..".png",  "lrfurn_sofa_back_"..colour..".png",  "lrfurn_sofa_left_side_"..colour..".png",  "lrfurn_sofa_right_side_"..colour..".png"},
 		paramtype = "light",
