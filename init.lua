@@ -1,3 +1,4 @@
+local S = minetest.get_translator("lrfurn")
 dofile(minetest.get_modpath("lrfurn").."/longsofas.lua")
 dofile(minetest.get_modpath("lrfurn").."/sofas.lua")
 dofile(minetest.get_modpath("lrfurn").."/armchairs.lua")

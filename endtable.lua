@@ -1,12 +1,3 @@
--- Boilerplate to support localized strings if intllib mod is installed.
-local S
-if (minetest.get_modpath("intllib")) then
-  dofile(minetest.get_modpath("intllib").."/intllib.lua")
-  S = intllib.Getter(minetest.get_current_modname())
-else
-  S = function ( s ) return s end
-end
-
 minetest.register_node("lrfurn:endtable", {
 	description = S("End Table"),
 	drawtype = "nodebox",
@@ -24,9 +15,9 @@ minetest.register_node("lrfurn:endtable", {
 					{0.3125, -0.5, -0.375, 0.375, -0.0625, -0.3125},
 					{-0.375, -0.5, 0.3125, -0.3125, -0.0625, 0.375},
 					{0.3125, -0.5, 0.3125, 0.375, -0.0625, 0.375},
-					
+
 					--tabletop
-					{-0.4375, -0.0625, -0.4375, 0.4375, 0, 0.4375},	
+					{-0.4375, -0.0625, -0.4375, 0.4375, 0, 0.4375},
 				}
 	},
 	selection_box = {
