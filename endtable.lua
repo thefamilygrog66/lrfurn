@@ -1,5 +1,5 @@
 minetest.register_node("lrfurn:endtable", {
-	description = "End Table",
+	description = S("End Table"),
 	drawtype = "nodebox",
 	tiles = {"lrfurn_coffeetable_back.png", "lrfurn_coffeetable_back.png",  "lrfurn_coffeetable_back.png",  "lrfurn_coffeetable_back.png",  "lrfurn_coffeetable_back.png",  "lrfurn_coffeetable_back.png"},
 	paramtype = "light",
@@ -15,9 +15,9 @@ minetest.register_node("lrfurn:endtable", {
 					{0.3125, -0.5, -0.375, 0.375, -0.0625, -0.3125},
 					{-0.375, -0.5, 0.3125, -0.3125, -0.0625, 0.375},
 					{0.3125, -0.5, 0.3125, 0.375, -0.0625, 0.375},
-					
+
 					--tabletop
-					{-0.4375, -0.0625, -0.4375, 0.4375, 0, 0.4375},	
+					{-0.4375, -0.0625, -0.4375, 0.4375, 0, 0.4375},
 				}
 	},
 	selection_box = {

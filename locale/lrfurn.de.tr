@@ -1,0 +1,41 @@
+# textdomain: lrfurn
+# Translation by Xanthin
+
+### armchairs.lua ###
+Red Armchair = Roter Sessel
+Orange Armchair = Oranger Sessel
+Yellow Armchair = Gelber Sessel
+Green Armchair = Gruener Sessel
+Blue Armchair = Blauer Sessel
+Violet Armchair = Violetter Sessel
+Black Armchair = Schwarzer Sessel
+Grey Armchair = Grauer Sessel
+White Armchair = Weisser Sessel
+
+### coffeetable.lua ###
+Coffee Table = Couchtisch
+
+### endtabel.lua ###
+End Table = Beistelltisch
+
+### longsofas.lua ###
+Red Long Sofa = Rotes langes Sofa
+Orange Long Sofa = Oranges langes Sofa
+Yellow Long Sofa = Gelbes langes Sofa
+Green Long Sofa = Gruenes langes Sofa
+Blue Long Sofa = Blaues langes Sofa
+Violet Long Sofa = Violettes langes Sofa
+Black Long Sofa = Schwarzes langes Sofa
+Grey Long Sofa = Graues langes Sofa
+White Long Sofa = Weisses langes Sofa
+
+### sofas.lua ###
+Red Sofa = Rotes Sofa
+Orange Sofa = Oranges Sofa
+Yellow Sofa = Gelbes Sofa
+Green Sofa = Gruenes Sofa
+Blue Sofa = Blaues Sofa
+Violet Sofa = Violettes Sofa
+Black Sofa = Schwarzes Sofa
+Grey Sofa = Graues Sofa
+White Sofa = Weisses Sofa

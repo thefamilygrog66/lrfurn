@@ -1,0 +1,40 @@
+# Template
+
+### armchairs.lua ###
+Red Armchair = 
+Orange Armchair = 	
+Yellow Armchair =
+Green Armchair = 
+Blue Armchair =
+Violet Armchair = 
+Black Armchair =
+Grey Armchair = 
+White Armchair = 
+
+### coffeetable.lua ###
+Coffee Table = 
+
+### endtabel.lua ###
+End Table = 
+
+### longsofas.lua ###
+Red Long Sofa = 
+Orange Long Sofa = 
+Yellow Long Sofa = 
+Green Long Sofa = 
+Blue Long Sofa = 
+Violet Long Sofa = 
+Black Long Sofa = 
+Grey Long Sofa = 
+White Long Sofa = 
+
+### sofas.lua ###
+Red Sofa = 
+Orange Sofa = 
+Yellow Sofa = 
+Green Sofa = 
+Blue Sofa = 
+Violet Sofa = 
+Black Sofa = 
+Grey Sofa = 
+White Sofa = 

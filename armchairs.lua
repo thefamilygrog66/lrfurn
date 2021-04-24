@@ -1,6 +1,6 @@
 local armchairs_list = {
 	{ "Red Armchair", "red"},
-	{ "Orange Armchair", "orange"},	
+	{ "Orange Armchair", "orange"},
 	{ "Yellow Armchair", "yellow"},
 	{ "Green Armchair", "green"},
 	{ "Blue Armchair", "blue"},
@@ -15,7 +15,7 @@ for i in ipairs(armchairs_list) do
 	local colour = armchairs_list[i][2]
 
 	minetest.register_node("lrfurn:armchair_"..colour, {
-		description = armchairdesc,
+		description = S(armchairdesc),
 		drawtype = "nodebox",
 		tiles = {"lrfurn_armchair_top_"..colour..".png", "lrfurn_coffeetable_back.png",  "lrfurn_sofa_left_side_"..colour..".png",  "lrfurn_sofa_right_side_"..colour..".png",  "lrfurn_sofa_back_"..colour..".png",  "lrfurn_armchair_front_"..colour..".png"},
 		paramtype = "light",
@@ -31,13 +31,13 @@ for i in ipairs(armchairs_list) do
 						{0.375, -0.5, -0.4375, 0.4375, -0.375, -0.375},
 						{-0.4375, -0.5, 0.375, -0.375, -0.375, 0.4375},
 						{0.375, -0.5, 0.375, 0.4375, -0.375, 0.4375},
-						
+
 						--base/cushion
 						{-0.5, -0.375, -0.5, 0.5, 0, 0.5},
-						
+
 						--back
 						{-0.5, 0, 0.3125, 0.5, 0.5, 0.5},
-						
+
 						--arms
 						{-0.5, 0, -0.5, -0.3125, 0.25, 0.3125},
 						{0.3125, 0, -0.5, 0.5, 0.25, 0.3125},
@@ -59,7 +59,7 @@ for i in ipairs(armchairs_list) do
 			clicker:set_hp(20)
 		end
 	})
-	
+
 	minetest.register_craft({
 		output = "lrfurn:armchair_"..colour,
 		recipe = {
@@ -68,7 +68,7 @@ for i in ipairs(armchairs_list) do
 			{"default:stick", "", "", }
 		}
 	})
-	
+
 	minetest.register_craft({
 		output = "lrfurn:armchair_"..colour,
 		recipe = {
